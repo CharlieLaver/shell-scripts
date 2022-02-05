@@ -1,5 +1,5 @@
 ## to replace ~/.profile in ubuntu env
-## run source ~/.profile after making changes
+## run: source ~/.profile after making changes
 
 ## custom commands
 
