@@ -1,0 +1,11 @@
+[2022-02-09 21:30:45.548] [exthost] [info] Extension host with pid 8108 started
+[2022-02-09 21:30:45.549] [exthost] [info] Skipping acquiring lock for /home/bash-env/~/.vscode-root/User/workspaceStorage/67a4c2c607e945897b0cef9c403a787d.
+[2022-02-09 21:30:45.635] [exthost] [info] ExtensionService#_doActivateExtension vscode.microsoft-authentication, startup: false, activationEvent: 'onAuthenticationRequest:microsoft'
+[2022-02-09 21:30:45.651] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: true, activationEvent: '*'
+[2022-02-09 21:30:45.653] [exthost] [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.github
+[2022-02-09 21:30:45.675] [exthost] [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+[2022-02-09 21:30:45.694] [exthost] [info] Eager extensions activated
+[2022-02-09 21:30:45.698] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+[2022-02-09 21:30:45.703] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+[2022-02-09 21:30:45.735] [exthost] [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+[2022-02-09 21:30:52.746] [exthost] [info] ExtensionService#_doActivateExtension vscode.git, startup: false, activationEvent: 'api', root cause: vscode.github

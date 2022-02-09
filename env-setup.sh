@@ -1,16 +1,5 @@
 #!/bin/bash
 
-echo -e "\n\nInstalling Git\n"
-sudo apt install git-all
-
-echo -e "\n\nInstalling Vim\n"
-sudo apt install vim
-
-echo -e "\n\nInstalling Chrome\n"
-sudo apt install wget
-wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
-sudo dpkg -i google-chrome-stable_current_amd64.deb
-
 echo -e "\n\nUpdating Apt Packages and upgrading latest patches\n"
 sudo apt-get update -y && sudo apt-get upgrade -y
 
@@ -36,5 +25,20 @@ sudo service apache2 restart
 
 echo -e "\n\nDisabling dock from GUI\n"
 gnome-extensions disable ubuntu-dock@ubuntu.com
+
+echo -e "\n\nInstalling Git\n"
+sudo apt install git-all
+
+echo -e "\n\nInstalling Vim\n"
+sudo apt install vim
+
+echo -e "\n\nInstalling Chrome\n"
+sudo apt install wget
+wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+sudo dpkg -i google-chrome-stable_current_amd64.deb
+
+echo "\n\Installing VS Code\n"
+sudo apt install snap
+sudo snap install --classic Code
 
 exit 0i
