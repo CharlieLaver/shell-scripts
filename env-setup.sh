@@ -1,6 +1,16 @@
 #!/bin/bash
 
-## INSTALLING LAMP SERVER ##
+echo -e "\n\nInstalling Git\n"
+sudo apt install git-all
+
+echo -e "\n\nInstalling Vim\n"
+sudo apt install vim
+
+echo -e "\n\nInstalling Chrome\n"
+sudo apt install wget
+wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+sudo dpkg -i google-chrome-stable_current_amd64.deb
+
 echo -e "\n\nUpdating Apt Packages and upgrading latest patches\n"
 sudo apt-get update -y && sudo apt-get upgrade -y
 
@@ -24,6 +34,7 @@ sudo phpenmod mcrypt
 echo -e "\n\nRestarting Apache\n"
 sudo service apache2 restart
 
-echo -e "\n\nLAMP Installation Completed"
+echo -e "\n\nDisabling dock from GUI\n"
+gnome-extensions disable ubuntu-dock@ubuntu.com
 
-exit 0
+exit 0i
