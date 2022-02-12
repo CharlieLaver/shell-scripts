@@ -17,6 +17,8 @@ sudo apt install composer
 sudo apt install curl
 ## ubutnu GUI changes
 gnome-extensions disable ubuntu-dock@ubuntu.com
+gsettings set org.gnome.shell.extensions.desktop-icons show-trash false
+gsettings set org.gnome.shell.extensions.desktop-icons show-home false
 ## installing git
 sudo apt install git-all
 ## installing vim
