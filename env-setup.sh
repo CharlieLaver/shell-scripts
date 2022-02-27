@@ -14,7 +14,7 @@ sudo apt install php libapache2-mod-php php-mysql
 ## installing composer
 sudo apt install composer
 ## installing curl
-sudo apt install curl
+sudo apt install php-curl
 ## ubutnu GUI changes
 gnome-extensions disable ubuntu-dock@ubuntu.com
 gsettings set org.gnome.shell.extensions.desktop-icons show-trash false
